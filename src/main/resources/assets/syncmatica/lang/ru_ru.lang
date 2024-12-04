@@ -1,0 +1,24 @@
+syncmatica.gui.button.view_syncmatics=Посмотреть Синкматики
+syncmatica.gui.button.material_gatherings=Сбор Материалов
+syncmatica.gui.button.load=Загрузить
+syncmatica.gui.button.unload=Выгрузить
+syncmatica.gui.button.remove=Удалить
+syncmatica.gui.button.download=Скачать
+syncmatica.gui.button.downloading=Скачивание...
+syncmatica.gui.button.share=Поделиться
+syncmatica.gui.button.material_gathering_placement=Материалы
+syncmatica.gui.title.manage_server_placements=Syncmatica %s - Управление схематиками сервера
+syncmatica.gui.label.placement_info.file_name=<c=636363>Название файла\n <c=FFFFFF>%s
+syncmatica.gui.label.placement_info.position=<c=636363>Координаты (xyz)\n <c=FFFFFF>%s
+syncmatica.gui.label.placement_info.dimension_id=<c=636363>Мир\n <c=FFFFFF>%s
+syncmatica.gui.label.placement_info.owner=<c=636363>Первоначально поделился\n <c=FFFFFF>%s
+syncmatica.gui.label.placement_info.last_modified=<c=636363>Последнее изменение\n <c=FFFFFF>%s
+syncmatica.error.share_without_shift=Нажмите шифт, что бы поделиться
+syncmatica.error.share_modified_subregions=Ошибка - сервер не поддерживает публикацию подрегионов - серверу нужно обновиться.
+syncmatica.error.modification_deny=Отказано в изменении - другой пользователь уже редактирует схематику.
+syncmatica.error.player_dimension_mismatch=Для загрузки игрок должен находиться в том же измерении, что и схематика.
+syncmatica.error.create_from_schematic=Ошибка при создании Синкматики из схематики: {}
+syncmatica.error.share_incompatible_schematic=Конвертируйте схематику с помощью Менеджера схем, чтобы поделиться ей
+syncmatica.error.invalid_file=Невозможно поделиться файлом этого типа
+syncmatica.error.failed_to_load=Не удалось загрузить лайтматику {}
+syncmatica.success.modification_accepted=Запрос на изменение принят - снова заблокируйте схематику, чтобы отправить результаты на сервер

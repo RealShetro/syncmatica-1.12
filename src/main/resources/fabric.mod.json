@@ -1,0 +1,36 @@
+{
+	"schemaVersion": 1,
+	"id": "syncmatica",
+	"name": "Syncmatica",
+	"version": "${mod_version}",
+
+	"description": "Server-wide shared litematics.",
+	"license": "CC0-1.0",
+	"authors": [ "Shetro" ],
+	"contact": {
+		"homepage": "https://github.com/RealShetro/Syncmatica-1.12.2",
+		"issues": "https://github.com/RealShetro/Syncmatica-1.12.2/issues",
+		"sources": "https://github.com/RealShetro/Syncmatica-1.12.2",
+		"discord": "https://discord.gg/6NPDVNMZ3T"
+	},
+
+	"icon": "assets/syncmatica/icon/logo.png",
+	"environment": "*",
+	"entrypoints": {},
+	"mixins": [
+		{
+			"config": "syncmatica.mixin.json",
+			"environment": "*"
+		},
+		{
+			"config": "syncmatica.litematica_mixin.json",
+			"environment": "client"
+		}
+	],
+
+	"depends": {
+		"minecraft": "1.12.x",
+		"litematica": "*",
+		"malilib": "*"
+	}
+}

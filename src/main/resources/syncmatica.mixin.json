@@ -1,0 +1,17 @@
+{
+    "required": true,
+    "package": "shetro.syncmatica.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "minVersion": "0.8",
+    "mixins": [
+        "MixinMinecraftServer",
+        "MixinNetHandlerPlayServer"
+    ],
+    "client": [
+        "MixinNetHandlerPlayClient",
+        "MixinMinecraft"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

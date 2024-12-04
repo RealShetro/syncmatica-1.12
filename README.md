@@ -5,7 +5,7 @@ Syncmatica is a mod which aims to mod into litematica so that schematics and the
 # Note
 
 Syncmatica-1.12.2 has been ported from newer versions, Original repository: [Syncmatica](https://github.com/End-Tech/syncmatica).
-Also join to mod creator's [Discord](https://discord.gg/6NPDVNMZ3T)
+Also join to [mod creator's Discord](https://discord.gg/6NPDVNMZ3T)
 
 ### Notice Please use with caution
 
@@ -21,8 +21,6 @@ update litematica, malilib and other potentially conflicting mods before making 
 Syncmaticas functionality :)
 
 Use [v0.3.8-1.12.2](https://github.com/RealShetro/Syncmatica-1.12.2) for 1.12.2
-Use [v0.3.8-1.16.5](https://github.com/End-Tech/syncmatica/releases/tag/v0.3.8-1.16.5) for 1.16 or 1.17
-Use [v0.3.8-1.18.2](https://github.com/End-Tech/syncmatica/releases/tag/v0.3.8-1.18.2) for 1.18 or 1.19
 
 ### Client
 
@@ -34,10 +32,10 @@ invisible. If you have versions as old as that you will have to update or Syncma
 
 ### Server
 
-For the server you only need to install ornithe and put Syncmatic in the mods folder (or just setup [Voided-Carpet-Addition](https://github.com/RealShetro/Voided-Carpet-Addition-1.12.2) I may not have posted it yet), and you are good to go.
+For the server you only need to install ornithe and put Syncmatic in the mods folder (or just setup [Carpet-Voided-Addition](https://github.com/RealShetro/Carpet-Voided-Addition)), and you are good to go.
 
 After running the mod once it will create a configuration file that you can use to configure the mod as you please.
-See [Config Doku](https://github.com/RealShetro/Syncmatica-1.12.2/blob/ornithe/1.12.2/CONFIG.md) for more information.
+See [Config Doku](https://github.com/RealShetro/syncmatica-1.12/blob/ornithe/1.12.2/CONFIG.md) for more information.
 
 ## Usage
 
@@ -54,9 +52,6 @@ with everyone.
 ## Project Status & Road Map
 
 v0.3.8 attempts to achieve compatability with 1.12.2
-- In doing so I change the way the mod starts up (client now starts when the first custom packet is received)
-- I also had to remove a detection for the removal of GUIs - 
-this now might cause crashes under very rare conditions.  Please look out for any kind of issues regarding this.
 
 The MaterialGatherings button is supposed, to aid with collecting the materials as a group. It should synchronize and
 simplify the collection of material across the server. As of now it does nothing.
